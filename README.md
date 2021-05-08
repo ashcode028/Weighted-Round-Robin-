@@ -78,4 +78,4 @@ cout<<"Enter values in each queue in each line separated with ';'"<<endl;
 ```
 #### Sample output
 ![](https://github.com/ashcode028/Weighted-Round-Robin-/blob/bd2970f9dff99417d0bcfa39d8413b9ea30a6e7e/output.jpg)
-References- Wikipedia,gfg
+
