@@ -11,7 +11,7 @@ If all packets have the same size, WRR is the simplest approximation of generali
 ## Principles:
 WRR is presented in the following as a network scheduler. It can also be used to schedule tasks in a similar way.
 
-A weighted round-robin network scheduler has {\displaystyle n}n input queues, {\displaystyle q_{1},...,q_{n}}{\displaystyle q_{1},...,q_{n}}. To each queue {\displaystyle q_{i}}q_{i} is associated {\displaystyle w_{i}}w_{i}, a positive integer, called the weight. The WRR scheduler has a cyclic behavior. In each cycle, each queue {\displaystyle q_{i}}q_{i} has {\displaystyle w_{i}}w_{i} emissions opportunities.
+A weighted round-robin network scheduler has n input queues,q<sub>1</sub>,...,q<sub>n</sub>. To each queue q<sub>i</sub> is associated w<sub>i</sub>, a positive integer, called the weight. The WRR scheduler has a cyclic behavior. In each cycle, each queue q<sub>i</sub>  has w<sub>i</sub> emissions opportunities.
 
 The different WRR algorithms differ on the distributions of these opportunities in the cycle.
 I have implemented Classical WRR.
@@ -33,3 +33,5 @@ while true do
             c:= c+1
 
 ```
+#### Sample output
+![](https://github.com/ashcode028/Weighted-Round-Robin-/blob/bd2970f9dff99417d0bcfa39d8413b9ea30a6e7e/output.jpg)
